@@ -1,0 +1,26 @@
+{
+    "name": "quan4-highlighter",
+    "displayName": "圈4高亮",
+    "description": "圈4语言的VS Code插件",
+    "version": "0.0.1",
+    "publisher": "nobody",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "quan4",
+            "aliases": ["圈4", "quan4"],
+            "extensions": [".圈4"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "quan4",
+            "scopeName": "source.圈4",
+            "path": "./syntaxes/quan4.tmLanguage.json"
+        }]
+    }
+}
