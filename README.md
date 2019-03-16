@@ -1,3 +1,5 @@
+[为新语言编写Visual Studio Code语法高亮插件](https://zhuanlan.zhihu.com/p/32322051)
+
 # quan4-highlighter README
 
 This is the README for your extension "quan4-highlighter". After writing up a brief description, we recommend including the following sections.
